@@ -1,0 +1,22 @@
+# Environment variables
+.env
+
+# Dataset / private files
+datasheet.pdf
+*.mp3
+*.wav
+
+# Database
+chat_history.db
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
