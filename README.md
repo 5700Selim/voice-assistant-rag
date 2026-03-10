@@ -56,31 +56,36 @@ The system also supports **voice input, text-to-speech output, and persistent ch
 ## Project Structure
 
 voice-assistant-rag
+
 │
+
 ├── app.py               # Main Streamlit application
+
 ├── htmlTemplates.py     # UI templates
+
 ├── requirements.txt     # Project dependencies
+
 ├── README.md
+
 ├── .gitignore
+
 ├── .env.example
+
 │
+
 └── Ignored Files
+
 ├── .env
+
+
 ├── datasheet.pdf
+
 ├── chat_history.db
+
 └── audio files
 
 
 ## Installation
-
-Clone the repository
-
-git clone https://github.com/yourusername/voice-assistant-rag.git
-
-Move into the project directory
-
-cd voice-assistant-rag
-
 Install dependencies
 
 pip install -r requirements.txt
@@ -91,14 +96,14 @@ Create a `.env` file in the project root. and iside that store the API key.
 
 Example:
 
-key=YOUR_GROQ_API_KEY
+key=GROQ_API_KEY
 
 
 ## Running the Application
 
 Start the Streamlit server: streamlit run main.py
 
-The application will open in your browser.
+The application will open in browser.
 
 ## How It Works
 1. Organizational data is **preloaded and processed into vector embeddings**.
