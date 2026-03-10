@@ -53,38 +53,6 @@ The system also supports **voice input, text-to-speech output, and persistent ch
 **Database**
 - SQLite
 
-## Project Structure
-
-voice-assistant-rag
-
-│
-
-├── app.py               # Main Streamlit application
-
-├── htmlTemplates.py     # UI templates
-
-├── requirements.txt     # Project dependencies
-
-├── README.md
-
-├── .gitignore
-
-├── .env.example
-
-│
-
-└── Ignored Files
-
-├── .env
-
-
-├── datasheet.pdf
-
-├── chat_history.db
-
-└── audio files
-
-
 ## Installation
 Install dependencies
 
